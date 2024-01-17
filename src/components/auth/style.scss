@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  .form {
+    width: 80%;
+  }
+  .incitingText {
+    color: #1900d5;
+    margin-left: 10px;
+    cursor: pointer;
+    &:hover {
+      color: lighten(#1900d5, 20%);
+    }
+    &:active {
+      color: darken(#1900d5, 8%);
+    }
+  }
+}
